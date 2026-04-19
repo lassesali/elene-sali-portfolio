@@ -1,5 +1,7 @@
 # Elene Sali - Creative Persona Portfolio
 
+https://lassesali.github.io/elene-sali-portfolio/
+
 ## Overview
 This repository contains the source code for a creative web development project built around an alter ego, Elene Sali. It is a responsive, multi-page static website designed to showcase my coding and design skills through the lens of a fictional persona with her own unique professional background and personal interests.
 
