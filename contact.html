@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Elene Sali's home page</title>
+		
+		<!-- the website has its own icon -->
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+		<!-- we need to include the following three ones for the Carousel and the Top Nagivation Bar -->
+		<link href="css/bootstrap-5.3.8.min.css" rel="stylesheet"> 
+		<script src="js/jquery-3.7.1.min.js"></script>
+		<script src="js/bootstrap-5.3.8.min.js"></script> 
+
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- let's use the Google Font 'Rubik' for the full name of the person -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+		
+		<!-- the Top Navigation Bar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">elene</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+					<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="cv.html">CV</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="hobbies.html">Hobbies</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+					</li>
+					</ul>
+				</div>
+			</div>
+		</nav> <!-- the end of the Top Navigation Bar -->
+
+    <!-- LEFT SIDEBAR GRID -->
+		<div class="left-sidebar-grid">
+
+			<!-- HEADER -->
+			<header class="header"></header>
+
+			<!-- MAIN CONTENT -->
+			<main class="main-content">
+				
+			<!-- a contact form -->
+
+          <div class="container contact-form">
+            <div class="contact-image">
+                <img src="pics/rocket-contact.png" alt="rocket_contact">
+            </div>
+            <form method="post">
+               <h3>Drop Me a Message</h3>
+               <div class="row">
+                    <div class="col-xs-6 col-md-12">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" class="form-control" placeholder="Your Name *" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="age">Age:</label>
+                            <input type="number" name="age" class="form-control" placeholder="Your Age *" value="">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="text" name="email" class="form-control" placeholder="Your E-mail *" value="">
+                        </div>                        
+                        <div class="form-group">
+                            <label for="how-did-you-know-about-my-page">How did you know about my page?</label>
+                            <div class="contactform-radiobutton-container">
+								<div class="form-check contactform-radiobutton-box">
+								  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+								  <label class="form-check-label" for="flexRadioDefault1">
+									From Google
+								  </label>
+								</div>
+								<div class="form-check contactform-radiobutton-box">
+								  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+								  <label class="form-check-label" for="flexRadioDefault2">
+									From a friend
+								  </label>
+								</div>
+								<div class="form-check contactform-radiobutton-box">
+								  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+								  <label class="form-check-label" for="flexRadioDefault3">
+									From Linkedin
+								  </label>
+								</div>
+								<div class="form-check contactform-radiobutton-box">
+								  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+								  <label class="form-check-label" for="flexRadioDefault4">
+									Other
+								  </label>
+								</div>	
+							</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your message:</label>
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+
+
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message">
+                        </div>
+
+                    </div>
+
+
+              </div> <!-- the end of <div class="row"> -->
+             
+            </form>
+
+        </div> <!-- the end of the LEFT SIDEBAR GRID -->
+
+			</main> <!-- the end of the MAIN CONTENT -->
+			
+			<!-- LEFT SIDE BAR -->
+			<section class="left-sidebar"></section>
+			
+			<!-- FOOTER -->
+			<footer class="footer">
+
+				<!-- contact information (email) -->
+				<div class="flex-container-for-socials email"> 
+					<div class="email-label">
+						e-mail:
+					</div>
+					<div class="email-address">
+						elenesa@uef.fi
+					</div>
+				</div>
+
+				<!-- let's add just a small gap between the email row and the socials row -->
+				<div class="gap"></div>
+
+				<!-- contact information (socials) -->
+				<div class="flex-container-for-socials socials">
+					<div>
+						<a href="https://www.instagram.com/elenesali" target="_blank"><img src="pics/logo_instagram.png"></a>
+					</div>
+					<div>
+						<a href="https://www.facebook.com/profile.php?id=100012557768931" target="_blank"><img src="pics/logo_facebook.png"></a>
+					</div>
+					<div>
+						<a href="https://www.linkedin.com/elenesali" target="_blank"><img src="pics/logo_linkedin.png"></a>		
+					</div>
+					<div>
+						<a href="https://www.youtube.com/elenesali" target="_blank"><img src="pics/logo_youtube.png"></a>
+					</div>
+					<div>
+						<a href="https://discord.com/users/elenesali" target="_blank"><img src="pics/logo_discord.png"></a>
+					</div>
+				</div>
+					<div class="disclaimer">
+			                    * Please note: Elene Sali is a fictional alter ego. This website is a creative web development portfolio project.
+			                </div>
+			</footer>
+
+		</div>
+
+    </body>
+</html>
+
+
+
+
+
