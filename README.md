@@ -22,3 +22,8 @@ The website is divided into four main sections:
 Since this is a static website, no build steps or complex installations are required. 
 1. Clone this repository to your local machine.
 2. Open the `index.html` file in your preferred web browser to view the site locally.
+
+## Screenshot
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7906d8c3-3b38-4cae-aefe-dccd207cf01b" />
+
+
