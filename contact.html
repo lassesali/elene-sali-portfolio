@@ -64,21 +64,22 @@
             <div class="contact-image">
                 <img src="pics/rocket-contact.png" alt="rocket_contact">
             </div>
-            <form method="post">
+	    <form action="https://formspree.io/f/mjgjrlbe" method="POST">
                <h3>Drop Me a Message</h3>
                <div class="row">
                     <div class="col-xs-6 col-md-12">
+
                         <div class="form-group">
                             <label for="name">Name:</label>
-                            <input type="text" name="name" class="form-control" placeholder="Your Name *" value="">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name *" value="" required>
                         </div>
                         <div class="form-group">
                             <label for="age">Age:</label>
-                            <input type="number" name="age" class="form-control" placeholder="Your Age *" value="">
+                            <input type="number" name="age" class="form-control" placeholder="Your Age *" value="" required>
                         </div>
                         <div class="form-group">
                             <label for="email">E-mail:</label>
-                            <input type="text" name="email" class="form-control" placeholder="Your E-mail *" value="">
+                            <input type="email" name="email" class="form-control" placeholder="Your E-mail *" value="" required>
                         </div>                        
                         <div class="form-group">
                             <label for="how-did-you-know-about-my-page">How did you know about my page?</label>
@@ -112,7 +113,7 @@
 
                         <div class="form-group">
                             <label for="message">Your message:</label>
-                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;" required></textarea>
                         </div>
 
 
